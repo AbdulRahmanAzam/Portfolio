@@ -7,7 +7,7 @@ const Hero = () => {
     // This would typically fetch the resume from a server
     // For now, we'll simulate a download
     const link = document.createElement('a');
-    link.href = '/public/ABDUL RAHMAN AZAM RESUME.pdf'; // You would place the actual resume in the public folder
+    link.href = '/ABDUL RAHMAN AZAM RESUME.pdf'; // Correct path for public folder
     link.download = 'Abdul_Rahman_Azam_Resume.pdf';
     link.click();
   };
@@ -31,7 +31,7 @@ const Hero = () => {
             <div className="relative mx-auto w-48 h-48 rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-400 to-purple-400 p-1">
               <div className="w-full h-full rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
                 <img
-                  src="/public/profile.png"
+                  src="/profile.png"
                   alt="Abdul Rahman Azam"
                   className="w-full h-full object-cover rounded-full"
                 />
